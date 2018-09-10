@@ -19,6 +19,10 @@
 #include <ncurses.h>		//for animating the terminal
 #include <locale.h> 		//for unicode support
 
+#ifdef __linux__
+#include <unistd.h>
+#endif
+
 #define DELAY 199999
 
 //NOTE: Defined game area as 20x5 - the smallest terminal size OS X allows
