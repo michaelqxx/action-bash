@@ -8,3 +8,5 @@ To run action-bash in OS X save action-bash and double click it to launch a term
 
 # How to build
 In OS X: Xcode command line tools are requires to build the project. http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/ once these are installed you can simply enter "make" in terminal while in the correct folder. Alternately you can run "gcc action-bash.c -lncurses" and run the a.out executable with ./a.out 
+
+# Have fun
